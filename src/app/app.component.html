@@ -1,0 +1,5 @@
+<h1>File upload</h1>
+<form action="http://localhost:8080/upload" enctype="multipart/form-data" method="post">
+<input type="file"  enctype="multipart/form-data" (change)="onFileSelected($event)">
+<button type="button" value="upload" name="file" (click)="onUpload()">Upload</button>
+</form>
